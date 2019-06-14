@@ -46,23 +46,7 @@ void Game::Go()
 
 void Game::UpdateModel()
 {
-	inhibit = true;
 	
-	if (asdadasdasdasdada)
-	{
-		if (inhibit)
-		{
-
-			vx += 1;
-			inhibit = false;
-		}
-	}
-	else 
-	{
-		inibit = true;
-	}
-
-
 
 
 
@@ -122,7 +106,5 @@ void Game::ComposeFrame()
 {
 	
 	Drawbrot(cx,cy, scale);
-	int nino = 5;
-	int nino(5);
-	
+
 }

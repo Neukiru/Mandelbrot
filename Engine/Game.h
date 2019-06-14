@@ -50,51 +50,12 @@ private:
 	double limit;
 	double lp, a1, b1, a2, b2;
 
-	int mobile_x, mobile_y;
 	
-	std::s
+	
+	
 };
 
 
-void randomizeSpeed()
-{
-	if (poospeed(rng) == 0)
-	{
-		poo1speed = 1;
-		poo1dirx = 1 ;
-		poo1diry = -1;
-		poo2speed = 1
-			poo1dirx = 1;
-		poo1diry = -1;
-	    poo3speed = 1
-
-	}
-	else if (poospeed(rng) == 1)
-	{
-		poo1speed = 1;
-		poo2speed = 1
-			poo3speed = 1
-	}
-	else if (poospeed(rng) == 2)
-	{
-		poo1speed = 1;
-		poo2speed = 1
-			poo3speed = 1
-	}
-	else if (poospeed(rng) == 3)
-	{
-		poo1speed = 1;
-		poo2speed = 5;
-			poo3speed = 5;
-	}
-}
-
-int poo1speed;
-poo1x += poo1dirx * poospeed;
-poo1y += poo2diry * poospeed;
 
 
-
-uniform_int_distribution<int> sign(0,1)
-sign(rng)
 
